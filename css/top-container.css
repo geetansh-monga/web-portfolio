@@ -1,0 +1,60 @@
+.top-container{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    padding-top: 10%;
+    padding-bottom: 0;
+    position: relative;
+    background-color: #d3f0f0;
+    text-align: center;
+}
+
+.top-container h2{
+    margin-top: 1%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    color: rgb(14, 187, 187);
+    font-weight: normal;
+}
+
+#top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 75px;
+}
+
+#top-cloud:hover{
+    position: absolute;
+    right: 500px;
+    top: 75px;
+}
+
+#bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 220px;
+}
+
+#bottom-cloud:hover{
+    position: absolute;
+    left: 200px;
+    top: 220px;
+}
+
+#mountain{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+@media(max-width: 786px){
+    #mountain{
+        height: 45%;
+        width: 100%;
+    }
+}
