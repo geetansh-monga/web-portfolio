@@ -41,6 +41,7 @@
 
 #mountain{
     display: block;
+    margin: auto;
     position: relative;
     bottom: 0;
 }
