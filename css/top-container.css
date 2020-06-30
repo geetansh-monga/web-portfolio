@@ -1,7 +1,4 @@
 .top-container{
-    box-sizing: border-box;
-    height: 100vh;
-    width: 100vw;
     display: block;
     padding-top: 10%;
     padding-bottom: 0;
@@ -44,17 +41,6 @@
 
 #mountain{
     display: block;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-}
-
-@media(max-width: 786px){
-    #mountain{
-        height: 45%;
-        width: 100%;
-    }
 }
