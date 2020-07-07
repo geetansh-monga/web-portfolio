@@ -4,8 +4,6 @@ body{
     text-align: center;
     font-family: 'Varela Round', sans-serif;}
 
-
-
 h1{
     display: block;
     font-family: 'Sacramento', cursive;
@@ -45,7 +43,6 @@ hr{
     display: flex;
     width: 50%;
     margin: auto;
-    align-items: center;
 }
 
 .content p{
@@ -87,4 +84,8 @@ hr{
 .programming-language{
     height: 100px;
     margin: 0 20px;
+}
+
+.right-align{
+    text-align: right;
 }
