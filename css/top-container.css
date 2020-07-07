@@ -1,4 +1,5 @@
 .top-container{
+    overflow-x: hidden;
     display: block;
     padding-top: 10%;
     padding-bottom: 0;
