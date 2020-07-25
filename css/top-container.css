@@ -18,25 +18,25 @@
 
 #top-cloud{
     position: absolute;
-    right: 400px;
+    right: 20vw;
     top: 75px;
 }
 
 #top-cloud:hover{
     position: absolute;
-    right: 500px;
+    right: 30vw;
     top: 75px;
 }
 
 #bottom-cloud{
     position: absolute;
-    left: 300px;
+    left: 15vw;
     top: 220px;
 }
 
 #bottom-cloud:hover{
     position: absolute;
-    left: 200px;
+    left: 25vw;
     top: 220px;
 }
 
